@@ -25,6 +25,7 @@ export default {
         addQuote() {
             this.quote = this.q;
             eventBus.$emit("addQuote", this.quote);
+            this.q = "";
         },
     },
 };
