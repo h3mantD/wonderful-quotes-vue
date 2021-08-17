@@ -18,7 +18,7 @@ import { eventBus } from "./main.js";
 import QuoteBar from "./components/QuoteBar.vue";
 import AddQuote from "./components/AddQuote";
 import QuoteInsert from "./components/Quote.vue";
-import QuoteGrid from "./components/QuoteGrid.vue";
+import QuoteGrid from "./components/QuoteGridd.vue";
 
 export default {
     data() {
